@@ -1,14 +1,15 @@
 {
   "name": "think-swagger-parser",
   "description": "parse swagger doc",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": {
     "name": "liber",
     "email": "liber_2000@163.com"
   },
   "scripts": {
-    "clean": "rm -rf .nyc_output coverage dist",
-    "build": "npm run clean && babel lib  -d dist ",
+    "clean": "rm -rf .nyc_output coverage",
+    "build1": "npm run clean && babel lib  -d dist ",
+    "build": "npm run clean && babel lib  -d dist",
     "test": "node_modules/.bin/nyc node_modules/.bin/ava -v test",
     "test-cov": "npm run test && npm run analyze-coverage && npm run check-coverage",
     "analyze-coverage": "node_modules/.bin/nyc report --reporter=html",
@@ -36,7 +37,8 @@
     "mustache": "^2.3.0",
     "tv4-x": "^1.2.8",
     "ajv": "^4.10.0",
-    "url-join": "^1.1.0"
+    "url-join": "^1.1.0",
+    "koa-router": "^7.2.1"
   },
   "devDependencies": {
     "ava": "^0.18.2",
