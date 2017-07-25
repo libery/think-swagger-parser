@@ -31,14 +31,15 @@
   ],
   "main": "dist/index.js",
   "dependencies": {
+    "ajv": "^4.10.0",
     "debug": "^2.3.2",
-    "think-helper": "^1.0.0",
+    "koa-router": "^7.2.1",
     "lodash": "^4.17.2",
     "mustache": "^2.3.0",
+    "swagger-parser": "^3.4.1",
+    "think-helper": "^1.0.0",
     "tv4-x": "^1.2.8",
-    "ajv": "^4.10.0",
-    "url-join": "^1.1.0",
-    "koa-router": "^7.2.1"
+    "url-join": "^1.1.0"
   },
   "devDependencies": {
     "ava": "^0.18.2",
