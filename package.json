@@ -1,7 +1,7 @@
 {
   "name": "think-swagger-parser",
   "description": "parse swagger doc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "liber",
     "email": "liber_2000@163.com"
